@@ -11,3 +11,9 @@ function criaCartao(categoria, pergunta, resposta) {
         cartao.classList.toogle( 'active', respostaEstaVisivel)
     }
     cartao.addEventListener( 'click', viraCartao)
+    function criaCartao(categoria, pergunta, resposta) {
+        let container = document.getElementById('container')
+        let cartao = document.createElement('article')
+        cartao.className = 'cartao'
+    }
+
