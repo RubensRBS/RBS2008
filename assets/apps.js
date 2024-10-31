@@ -23,3 +23,4 @@ cartao.innerHTML =`<div class="cartao__conteudo__pergunta">
              <div class="cartao__pergunta__resposta">
                 <p>o que é uma linguagem de Programação</p>`
                 container.appendChild(cartao)
+            
