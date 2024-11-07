@@ -190,3 +190,22 @@ body {
 @me {
     
 }
+.cartao:active .cartao__conteudo {
+    transform: rotateY(180deg);
+    }
+    @media (max-width: 560px) {
+    }
+    @media (max-width: 560px) {
+        body {
+        background: url(‘img/bg-mobile.webp’);
+        }
+        }
+        .cartao {
+            flex: 1 0 calc(100% - 1rem)
+            }
+            .cartao__conteudo h3 {
+                font-size: 3vw;
+                }
+                .cartao__conteudo p {
+                font-size: 3.8vw;
+                }
