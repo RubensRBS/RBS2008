@@ -70,7 +70,8 @@ body {
 
 @media (max-width: 560px) {
     body {
-        background: url('img/bg-mobile.webp'); 
+        background: url('img/bg-mobile.webp'); /* Alterar para a imagem de fundo desejada */
+    }
 
     .cartao {
         flex: 1 0 calc(100% - 1rem);
